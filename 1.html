@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Detail Buku - TODANA</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .banner-img {
+      max-height: 400px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    .btn-custom {
+      border-radius: 20px;
+    }
+  </style>
+</head>
+<body class="bg-light">
+
+  <div class="container py-4">
+    <a href="awal.html" class="btn btn-secondary mb-3">Kembali</a>
+    <div class="row">
+      <div class="col-md-5">
+        <img src="imgg/nov.jpeg" class="img-fluid banner-img" alt="Cover Buku">
+      </div>
+      <div class="col-md-7">
+        <h2>Classroom of the Elite Volume 4</h2>
+        <p class="text-muted">Penulis: Shogo Kinugasa | Genre: Novel,Pyscology,School,Strategy | Harga: <strong class="text-danger">Rp. 120.000</strong></p>
+        <p>
+          "Classroom of the Elite" mengisahkan tentang kehidupan para siswa di sekolah paling elit di Jepang—sebuah institusi yang menjanjikan masa depan gemilang bagi siapa pun yang berhasil lulus. Namun, di balik fasilitas mewah dan sistem pendidikan modern, tersembunyi kompetisi brutal antar siswa yang harus bersaing secara intelektual dan sosial demi mempertahankan peringkat mereka.
+
+Di sekolah ini, nilai akademik bukan satu-satunya tolok ukur—kecerdasan emosional, manipulasi, dan strategi juga menjadi senjata utama. Setiap tindakan dan keputusan bisa berdampak besar terhadap status mereka di sekolah. Buku ini mengajak pembaca menyelami dunia yang kompleks, penuh intrik, konflik psikologis, dan pertarungan moral yang mengaburkan batas antara benar dan salah.
+        </p>
+        <button class="btn btn-success btn-custom" onclick="orderBook()">Beli Sekarang</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function orderBook() {
+      alert("Buku berhasil dibeli! Terima kasih telah memesan di TODANA.");
+      window.location.href = "2.html";
+    }
+  </script>
+
+</body>
+</html>
